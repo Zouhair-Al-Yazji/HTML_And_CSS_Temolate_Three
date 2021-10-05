@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>w3schools | Template Three</title>
+    <!-- Rander All Element Normaly -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Liprary -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <nav>
+        <i class="fas fa-bars toggle-menu"></i>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#band">Band</a></li>
+          <li><a href="#tour">Tour</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="active">
+            <a href="#">More</a>
+            <ul class="menu">
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="form">
+          <i class="fas fa-search"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+      <div class="img">
+        <img src="images/landing.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>Los Angeles</h3>
+        <p>We had the best time playing at Venice Beach!</p>
+      </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Services -->
+    <div class="services" id="band">
+      <div class="container">
+        <div class="main-heading">
+          <h2>The band</h2>
+          <p class="italic"><i>We love music</i></p>
+        </div>
+        <div class="text">
+          <p>
+            We have created a fictional band website. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
+        <div class="box">
+          <div class="card">
+            <p>Name</p>
+            <img src="images/bandmember.jpg" alt="img">
+          </div>
+          <div class="card">
+            <p>Name</p>
+            <img src="images/bandmember.jpg" alt="img">
+          </div>
+          <div class="card">
+            <p>Name</p>
+            <img src="images/bandmember.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Design -->
+    <div class="design" id="tour">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Tour Dates</h2>
+          <p><i>Remember to book your tickets!</i></p>
+        </div>
+        <ul class="text">
+          <li>September</li>
+          <li>October</li>
+          <li>November</li>
+        </ul>
+        <div class="box">
+          <div class="card">
+            <img src="images/newyork.jpg" alt="img">
+            <div class="box-content">
+              <h3>New York</h3>
+              <p class="active">Fri 27 Nov 2016</p>
+              <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+              <button>Buy Tikets</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/paris.jpg" alt="img">
+            <div class="box-content">
+              <h3>Paris</h3>
+              <p class="active">Sat 28 Nov 2016</p>
+              <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+              <button>Buy Tikets</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/sanfran.jpg" alt="img">
+            <div class="box-content">
+              <h3>San Francisco</h3>
+              <p class="active">Sun 29 Nov 2016</p>
+              <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+              <button>Buy Tikets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Design -->
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Contact</h2>
+          <p class="italic"><i>Fan? Drop a note!</i></p>
+        </div>
+        <div class="content">
+          <div class="text-content">
+            <i class="fa fa-map-marker-alt"></i>
+            <span>Chicago, US</span>
+            <br>
+            <i class="fas fa-phone"></i>
+            <span>Phone: +00 151515</span>
+            <br>
+            <i class="fa fa-envelope"></i>
+            <span>Email: mail@mail.com</span>
+          </div>
+          <form action="" method="POST">
+            <input type="text" class="main-input" placeholder="Name" name="Name" required>
+            <input type="Email" class="main-input" placeholder="Email" name="mail" required>
+            <input type="text" class="main-input" placeholder="Message" name="Message">
+            <input type="submit" class="main-input" value="send" name="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="img">
+      <img src="images/map.jpg" alt="map">
+    </div>
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="icon">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <p>Powered by <a href="#">w3.css</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
